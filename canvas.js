@@ -8,11 +8,11 @@ function randomRange(min, max) {
 	return  Math.random()*(max-min) + min; 
 }
 
-setInterval(draw,20);
+setInterval(draw,100);
 
   function draw(){
 	  // create an array item, local variable (look at variable scope)
-	  	var my_pixel={x:500,y:500,xSpeed:randomRange(-5,5),ySpeed:randomRange(-5,5),size:5};
+	  	var my_pixel={x:500,y:500,xSpeed:randomRange(-5,5),ySpeed:randomRange(-5,5),size:10};
 		
 		//add to array
   		my_Array.push(my_pixel);
