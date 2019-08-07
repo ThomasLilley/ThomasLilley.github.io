@@ -1,21 +1,58 @@
 body{
-    background-color: black;
+    background-color: azure;
     margin:0px;
 	overflow:hidden;
 }
-canvas {
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    width: 800px;
-}
 p{
     z-index: 1;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-style: italic;
-    font-size: xx-large; 
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4vw;
     text-align: center;
+}
+h1{
+    z-index: 1;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4vw;
+    
+}
+
+div{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4vw;
+    margin: 5px;
+}
+
+a.button {
+    display: inline-block;
+    width:33%;
+    height: auto;
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom: 5px;
+    text-align: center;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    font-style: italic;
+    color: initial;
+    color: white;
+    background:#000000;
+    border:2px solid black;
+    outline:2px #ffffff solid;
+    outline-offset:-6px;
+    
+}
+img.socials{
+    width: 50px;
+    height: auto;
+    margin: 20px;
+}
+div.socials{
+    text-align: center;
+    height: auto;
+    margin-bottom: 10px;
 }
