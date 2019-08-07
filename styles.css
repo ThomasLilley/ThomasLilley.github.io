@@ -33,7 +33,6 @@ a.button {
     padding-right:30px;
     padding-bottom: 5px;
     text-align: center;
-    -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
     text-decoration: none;
