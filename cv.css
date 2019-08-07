@@ -1,0 +1,35 @@
+body{
+    background-color: azure;
+    margin:0px;
+}
+p, ul, li{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1vw;
+}
+h1{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4vw;
+    padding-left: 2vw;
+    text-decoration: none;
+}
+h2{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2vw;
+    
+}
+h3{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5vw;  
+}
+
+div{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2vw;
+    width:60%;
+    height: auto;
+    padding-left: 2vw;
+}
